@@ -1,1 +1,15 @@
-.code-2.js
+# ignorar 
+code-3.js
+
+# ignorar a grupo (todo lo que tenga .txt)
+
+*.txt
+
+# excepciones (no ignorar)
+!excepcion.txt
+
+# ignorar carpeta
+
+assets/
+
+# todo archivo ya trackeado por git no se ve afectado por .gitignore
